@@ -1,0 +1,34 @@
+.main-part {
+    padding: 10px 10px 10px 10px;
+}
+
+
+.header{
+    color: black;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img {
+    height: 450px;
+}
+
+.header hr {
+    border-width: 1px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    opacity: 1;
+    }
+
+#description {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
