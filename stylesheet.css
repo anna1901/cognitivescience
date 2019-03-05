@@ -1,4 +1,4 @@
-.header, .description {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -10,8 +10,6 @@
   color: black;
   font-size: 45px;
   margin-top: 20px; }
-  .header p {
-    text-align: center; }
 
 .header-img {
   display: flex;
@@ -36,7 +34,6 @@ hr {
   margin-right: 8%;
   margin-bottom: 20px;
   text-align: justify;
-  align-items: center;
   font-size: 14px; }
 
 #other-pages {
@@ -46,7 +43,8 @@ hr {
   font-size: 14px; }
 
 .table-description {
-  text-align: center; }
+  text-align: center;
+  font-size: 14px; }
 
 table, th, td {
   border: 1px solid black; }
