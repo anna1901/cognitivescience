@@ -50,6 +50,7 @@ hr {
     margin-bottom: 20px;
     text-align: justify;
     font-size: $font-size;
+    @extend %center-content;
 }
 
 #other-pages {
@@ -74,6 +75,7 @@ table {
     display: flex;
     @extend %border;
     text-align: left;
+    margin-bottom: 15px;
 }
 
 th, td {
