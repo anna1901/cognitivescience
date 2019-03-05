@@ -1,5 +1,3 @@
-anna1901
-
 Website created as a cs50 class project using HTML5, CSS3 and SASS.
 
 Website decribes few topics related to my university major and hobby - Cognitive Science.
