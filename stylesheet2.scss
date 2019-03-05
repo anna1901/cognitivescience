@@ -52,12 +52,11 @@ hr {
 #other-pages {
     padding-left: 10%;
     padding-right: 10%;
+    p {
+        text-align: justify;
+    }
 }
 
-
-#other-pages p {
-    text-align: justify;
-}
 
 table, th, td {
     border: 1px solid $color;
