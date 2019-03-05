@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+        <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     </div>
     <div class="description">
         <hr>
-        <p>
+        <p class="table-description">
             Here is a table with most recognised researchers in Cognitive Science field and their contributions to the
             field.
         </p>
@@ -30,12 +31,12 @@
             Source: <a href="https://en.wikipedia.org/wiki/Cognitive_science" target="_blank">Wikipedia</a>
         </p>
     </div>
-    <div id="table-researchers">
+    <div class="description">
         <table>
             <tr>
                 <th>Name</th>
-                <th>Year of birth</th>
-                <th>Year of contribution</th>
+                <th id="table-years">Year of birth</th>
+                <th id="table-years">Year of contribution</th>
                 <th>Contributions</th>
             </tr>
             <tr>
@@ -47,7 +48,7 @@
             <tr>
                 <td>McCulloch and Pitts</td>
                 <td>-</td>
-                <td>1930s–1940s</td>
+                <td>1930s-1940s</td>
                 <td>Developed early artificial neural networks</td>
             </tr>
             <tr>
@@ -72,7 +73,7 @@
             </tr>
             <tr>
                 <td>Christopher Longuet-Higgins</td>
-                <td>1923</td>
+                <td id= "proba">1923</td>
                 <td>1973</td>
                 <td>Coined the term cognitive science</td>
             </tr>
@@ -101,8 +102,8 @@
                 <td>Dualism, hard problem of consciousness</td>
             </tr>
         </table>
+        <hr>
     </div>
-    <hr>
 </body>
 
 </html>
